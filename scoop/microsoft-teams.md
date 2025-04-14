@@ -63,3 +63,17 @@ Running post_install script...done.
 'microsoft-teams' (1.8.00.8769) was installed successfully!
 PS C:\>
 ```
+
+***not working ***
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall microsoft-teams
+Uninstalling 'microsoft-teams' (1.8.00.8769).
+Removing shim 'Teams.shim'.
+Removing shim 'Teams.exe'.
+Removing shortcut ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Microsoft Teams.lnk
+Unlinking ~\scoop\apps\microsoft-teams\current
+'microsoft-teams' was uninstalled.
+PS C:\>
+```
