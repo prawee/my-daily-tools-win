@@ -61,6 +61,7 @@ PS C:\>
 ```
 
 ## Try to console
+### Start database first
 ```bash
 PS C:\> mysqld --console   
 2025-04-14 16:30:18 0 [Note] Starting MariaDB 11.7.2-MariaDB source revision 80067a69feaeb5df30abb1bfaf7d4e713ccbf027 server_uid fHIURoylFP9kr3hyNTbk0ZNMSYE= as process 2988
@@ -85,4 +86,19 @@ PS C:\> mysqld --console
 2025-04-14 16:30:20 0 [Note] mysqld.exe: Event Scheduler: Loaded 0 events
 2025-04-14 16:30:20 0 [Note] C:\Users\Admin\scoop\apps\mariadb\current\bin\mysqld.exe: ready for connections.
 Version: '11.7.2-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+```
+
+### Connect
+```bash
+PS C:\> mysql -u root -p
+Enter password: <blank>
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 5
+Server version: 11.7.2-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]>
 ```
