@@ -121,3 +121,7 @@ Unlinking ~\scoop\apps\oh-my-posh\current
 'oh-my-posh' was uninstalled.
 PS C:\>
 ```
+
+```bash
+PS C:\> rm -rf C:\Users\Admin\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+```
