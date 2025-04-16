@@ -2,19 +2,19 @@
 
 ## Searching
 ```bash
-c:\> scoop search heidisql
+PS C:\> scoop search heidisql
 Results from local buckets...
 
 Name     Version Source Binaries
 ----     ------- ------ --------
 heidisql 12.10   extras
 
-c:\>
+PS C:\>
 ```
 
 ## Installation
 ```bash
-c:\> scoop install heidisql
+PS C:\> scoop install heidisql
 Updating Scoop...
 Updating Buckets...
  * 83b8e936ba30 swig: Update to version 4.3.1                            main         2 hours ago
@@ -52,10 +52,22 @@ Creating shortcut for HeidiSQL (heidisql.exe)
 Persisting portable_settings.txt
 'heidisql' (12.10) was installed successfully!
 
-c:\>
+PS C:\>
 ```
 
 ## Running
 ```bash
-c:\> heidisql
+PS C:\> heidisql
+```
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall heidisql
+Uninstalling 'heidisql' (12.10).
+Removing shim 'heidisql.shim'.
+Removing shim 'heidisql.exe'.
+Removing shortcut ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\HeidiSQL.lnk
+Unlinking ~\scoop\apps\heidisql\current
+'heidisql' was uninstalled.
+PS C:\>
 ```
