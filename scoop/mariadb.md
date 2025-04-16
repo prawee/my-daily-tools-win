@@ -102,3 +102,62 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [(none)]>
 ```
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall mariadb
+Uninstalling 'mariadb' (11.7.2).
+Removing shim 'aria_chk.shim'.
+Removing shim 'aria_chk.exe'.
+Removing shim 'aria_dump_log.shim'.
+Removing shim 'aria_dump_log.exe'.
+Removing shim 'aria_ftdump.shim'.
+Removing shim 'aria_ftdump.exe'.
+Removing shim 'aria_pack.shim'.
+Removing shim 'aria_pack.exe'.
+Removing shim 'aria_read_log.shim'.
+Removing shim 'aria_read_log.exe'.
+Removing shim 'innochecksum.shim'.
+Removing shim 'innochecksum.exe'.
+Removing shim 'myisamchk.shim'.
+Removing shim 'myisamchk.exe'.
+Removing shim 'myisamlog.shim'.
+Removing shim 'myisamlog.exe'.
+Removing shim 'myisampack.shim'.
+Removing shim 'myisampack.exe'.
+Removing shim 'myisam_ftdump.shim'.
+Removing shim 'myisam_ftdump.exe'.
+Removing shim 'mysql.shim'.
+Removing shim 'mysql.exe'.
+Removing shim 'mysqladmin.shim'.
+Removing shim 'mysqladmin.exe'.
+Removing shim 'mysqlbinlog.shim'.
+Removing shim 'mysqlbinlog.exe'.
+Removing shim 'mysqlcheck.shim'.
+Removing shim 'mysqlcheck.exe'.
+Removing shim 'mysqld.shim'.
+Removing shim 'mysqld.exe'.
+Removing shim 'mysqldump.shim'.
+Removing shim 'mysqldump.exe'.
+Removing shim 'mysqlimport.shim'.
+Removing shim 'mysqlimport.exe'.
+Removing shim 'mysqlshow.shim'.
+Removing shim 'mysqlshow.exe'.
+Removing shim 'mysqlslap.shim'.
+Removing shim 'mysqlslap.exe'.
+Removing shim 'mysql_install_db.shim'.
+Removing shim 'mysql_install_db.exe'.
+Removing shim 'mysql_plugin.shim'.
+Removing shim 'mysql_plugin.exe'.
+Removing shim 'mysql_tzinfo_to_sql.shim'.
+Removing shim 'mysql_tzinfo_to_sql.exe'.
+Removing shim 'mysql_upgrade.shim'.
+Removing shim 'mysql_upgrade.exe'.
+Removing shim 'mysql_upgrade_service.shim'.
+Removing shim 'mysql_upgrade_service.exe'.
+Removing shim 'my_print_defaults.shim'.
+Removing shim 'my_print_defaults.exe'.
+Unlinking ~\scoop\apps\mariadb\current
+'mariadb' was uninstalled.
+PS C:\>
+```
