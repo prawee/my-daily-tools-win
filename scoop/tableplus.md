@@ -35,3 +35,15 @@ Creating shortcut for TablePlus (TablePlus.exe)
 'tableplus' (6.4.8.310) was installed successfully!
 PS C:\>
 ```
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall tableplus                              
+Uninstalling 'tableplus' (6.4.8.310).
+Removing shim 'TablePlus.shim'.
+Removing shim 'TablePlus.exe'.
+Removing shortcut ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\TablePlus.lnk
+Unlinking ~\scoop\apps\tableplus\current
+'tableplus' was uninstalled.
+PS C:\>
+```
