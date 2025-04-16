@@ -93,5 +93,18 @@ PS C:\>
 PS C:\> code-insiders .
 ```
 
+## Uninstall
+```bash
+PS C:\> scoop uninstall vscode-insiders                          pwsh  17:59:48 
+Uninstalling 'vscode-insiders' (1.100.0-1744347907130).
+Running uninstaller script...ERROR: Error opening the file. There may be a disk or file system error.
+done.
+Removing shortcut ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Scoop Apps\Visual Studio Code - Insiders.lnk
+Unlinking ~\scoop\apps\vscode-insiders\current
+Removing ~\scoop\apps\vscode-insiders\current\bin from your path.
+'vscode-insiders' was uninstalled.
+PS C:\>
+```
+
 ## Reference
 <https://www.anmalkov.com/blog/use-code-command-to-run-vscode-insiders>
