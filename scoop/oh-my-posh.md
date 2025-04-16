@@ -110,3 +110,14 @@ oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/
 ## Running
 
 Close `Terminal` and open it again
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall oh-my-posh                                pwsh  18:03:48 
+Uninstalling 'oh-my-posh' (25.13.0).
+Removing shim 'oh-my-posh.shim'.
+Removing shim 'oh-my-posh.exe'.
+Unlinking ~\scoop\apps\oh-my-posh\current
+'oh-my-posh' was uninstalled.
+PS C:\>
+```
