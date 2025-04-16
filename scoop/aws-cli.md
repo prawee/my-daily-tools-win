@@ -60,3 +60,16 @@ PS C:\> aws --version
 aws-cli/2.26.1 Python/3.13.2 Windows/10 exe/AMD64
 PS C:\>
 ```
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall aws
+Uninstalling 'aws' (2.26.2).
+Removing shim 'aws.shim'.
+Removing shim 'aws.exe'.
+Removing shim 'aws_completer.shim'.
+Removing shim 'aws_completer.exe'.
+Unlinking ~\scoop\apps\aws\current
+'aws' was uninstalled.
+PS C:\>
+```
