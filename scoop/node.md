@@ -64,3 +64,14 @@ PS C:\> node -v
 v20.19.0
 PS C:\>
 ```
+
+## Uninstall
+```bash
+PS C:\> scoop uninstall nodejs20
+Uninstalling 'nodejs20' (20.19.0).
+Unlinking ~\scoop\apps\nodejs20\current
+Removing ~\scoop\apps\nodejs20\current\bin from your path.
+Removing ~\scoop\apps\nodejs20\current from your path.
+'nodejs20' was uninstalled.
+PS C:\>
+```
