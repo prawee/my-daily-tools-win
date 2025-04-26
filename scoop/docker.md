@@ -48,3 +48,8 @@ PS C:\> docker --version
 Docker version 28.1.1, build 4eba377
 PS C:\>
 ```
+
+## Fix
+```bash
+wsl --update
+```
