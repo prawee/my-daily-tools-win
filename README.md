@@ -5,3 +5,8 @@
 - Choco
 - Nano
 - Scoop
+
+
+### DevOps
+- AWS
+- Docker
