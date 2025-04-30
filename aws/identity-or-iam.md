@@ -11,3 +11,15 @@ PS C:\> aws sts get-caller-identity
 
 PS C:\>
 ```
+
+## Get identity with profile
+```bash
+PS C:\> aws sts get-caller-identity --profile staging
+{
+    "UserId": "AIDAS**********",
+    "Account": "1956********",
+    "Arn": "arn:aws:iam::1956*******:user/p********"
+}
+
+PS C:\>
+```
