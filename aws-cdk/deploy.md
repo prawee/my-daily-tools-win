@@ -67,3 +67,8 @@ arn:aws:cloudformation:ap-southeast-1:1956086xxxxxx:stack/HonoStack/1e5c3c90-22b
 
 ✨  Total time: 33.75s
 ```
+
+## Deploy with options
+```bash
+$ cdk deploy --require-approval never
+```
